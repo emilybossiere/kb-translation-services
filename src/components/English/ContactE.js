@@ -17,27 +17,36 @@ export default class ContactE extends React.Component {
   render() {
     return (
       <div className="contactForm">
+        <h2>Requests / Inquiries</h2>
+        <hr/>
+        <p>
+          If you would like to request a service or have any questions, send
+          us an email below.
+        </p>
         <input
+          className="subject"
           type="email"
           value={this.state.subject}
           onChange={this.handleSubject}
           maxLength="50"
           placeholder="Subject..."
         />
+
         <textarea
+          className="contents"
           value={this.state.contents}
           onChange={this.handleContents}
           rows="10"
           maxLength="1000"
-          placeholder="Contents..."
+          placeholder="Your message..."
         />
-        <a
-          href={`mailto:mulberrytrns@gmail.com?subject=${
-            this.state.subject
-          }&body=${this.state.contents}`}
-        >
-          E-mail
-        </a>
+        <button type="button" class="btn btn-primary">
+          <a
+            href={`mailto:mulberrytrns@gmail.com?subject=${this.state.subject}&body=${this.state.contents}`}
+          >
+            Send E-mail
+          </a>
+        </button>
       </div>
     );
   }

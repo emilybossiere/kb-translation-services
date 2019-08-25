@@ -1,1 +1,29 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
 
+.subject {
+  border: solid 1px #aeaeae;
+  border-radius: 3px;
+  width: 15rem;
+  padding-left: 5px;
+  margin: 5px 20px;
+}
+
+.contents {
+  border: solid 1px #aeaeae;
+  border-radius: 3px;
+  margin: 5px 20px;
+  padding-left: 5px;
+}
+
+.btn {
+  margin: 5px 20px;
+  width: 8rem;
+}
+
+.btn a {
+  text-decoration: none !important;
+  color: white;
+}

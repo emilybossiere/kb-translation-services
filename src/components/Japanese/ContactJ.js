@@ -32,9 +32,7 @@ export default class ContactJ extends React.Component {
           placeholder="Contents..."
         />
         <a
-          href={`mailto:mulberrytrns@gmail.com?subject=${
-            this.state.subject
-          }&body=${this.state.contents}`}
+          href={`mailto:mulberrytrns@gmail.com?subject=${this.state.subject}&body=${this.state.contents}`}
         >
           E-mail
         </a>

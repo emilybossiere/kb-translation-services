@@ -2,14 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
-import Header from "./components/Header.js";
 import Japanese from "./AppJ.js";
 import English from "./AppE.js";
 
 const routes = (
   <BrowserRouter>
     <div>
-      <Header />
       <Route path="/" component={Japanese} exact={true} />
       <Route path="/english" component={English} />
     </div>

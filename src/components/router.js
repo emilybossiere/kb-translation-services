@@ -5,11 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 import Header from "./components/Header.js";
 import Japanese from "./Apps.js";
 
-const English = () => (
-  <div>
-    English page - <Link to="/">View in Japanese</Link>{" "}
-  </div>
-);
+
 
 const routes = (
   <BrowserRouter>
