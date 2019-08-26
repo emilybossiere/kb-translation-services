@@ -2,15 +2,18 @@ html,
 body {
   height: 100%;
 }
+
 .footer {
-  background: #dc9d94;
-  height: 143px;
-  position: relative;
-  text-align: center;
-  padding: 3px;
+  background: #0a4368;
+  width: 100%;
 }
 
 .footer p {
   margin: 3px;
-  
+}
+
+.text {
+  color: white;
+  display: table;
+  margin: 0 auto;
 }

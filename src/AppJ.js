@@ -10,18 +10,18 @@ import "./styles/styles.scss";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="AppJ">
       <Link className="language" to="/english">
         English
       </Link>
       <Header />
-      <IntroJ />
-      <SpecificsJ />
-      <ContactJ />
-      <AboutJ />
+      <div className="container">
+        <IntroJ />
+        <SpecificsJ />
+        <ContactJ />
+        <AboutJ />
+      </div>
       <FooterJ />
-      
     </div>
   );
 }

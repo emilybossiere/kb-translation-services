@@ -5,6 +5,7 @@ export default class IntroE extends React.Component {
     return (
       <div className="intro">
         <h2>Need help with English?</h2>
+        <hr />
         <p>
           In preparation for the Tokyo Olympics, the city of Tokyo is full of
           many foreign tourists. In addition, the signboards in English have

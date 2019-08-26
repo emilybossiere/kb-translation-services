@@ -1,10 +1,12 @@
 import React from "react";
+import dividerImg from "../../media/divider.jpg";
 
 export default class SpecificsE extends React.Component {
   render() {
     return (
       <div className="">
         <div>
+          <img className="divider" src={dividerImg} alt="KOB Translation" />
           <h2>Translation Services</h2>
           <hr />
           <p>
@@ -50,13 +52,21 @@ export default class SpecificsE extends React.Component {
         <h5>Payment</h5>
         <p>
           Please pay by{" "}
-          <a href="https://www.paypal.com/jp/webapps/mpp/home" target="_blank">
+          <a
+            href="https://www.paypal.com/jp/webapps/mpp/home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             PayPal
           </a>{" "}
           or bank transfer within 2 weeks after delivery.
         </p>
         <p>
-          <a href="https://www.paypal.com/jp/webapps/mpp/home" target="_blank">
+          <a
+            href="https://www.paypal.com/jp/webapps/mpp/home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             PayPal
           </a>{" "}
           is a safe and easy online payment service used by over 250 million

@@ -10,7 +10,7 @@ import "./styles/styles.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className="AppE">
       <Link className="language" to="/">
         日本語
       </Link>

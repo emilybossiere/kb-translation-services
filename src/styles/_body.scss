@@ -4,12 +4,21 @@
   border-radius: 20px;
   margin-bottom: 20px;
   padding: 10px 7px;
-  width: 80%;
+  width: 75%;
 }
 
 .container p {
   margin: 0;
   padding: 5px 20px;
+}
+
+.intro h2 {
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  border-radius: 3px;
 }
 
 hr {
@@ -23,4 +32,24 @@ hr {
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0)
   );
+}
+
+@media only screen and (max-width: 768px) {
+  .about img {
+    display: none;
+  }
+
+  .about h4 {
+    margin: 5px 0 0 20px;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header img {
+    width: 100%;
+  }
 }

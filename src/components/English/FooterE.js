@@ -4,7 +4,7 @@ export default class FooterE extends React.Component {
   render() {
     return (
       <div className="footer">
-        <div className="test">
+        <div className="text">
           <p>KB Translation Services</p>
 
           <p>〒152-0035</p>

@@ -3,8 +3,9 @@ import React from "react";
 export default class IntroJ extends React.Component {
   render() {
     return (
-      <div>
-        <h1>英語でお困りですか？</h1>
+      <div className="intro">
+        <h2>英語でお困りですか？</h2>
+        <hr />
         <p>
           東京オリンピック開催を控え、東京の街はたくさんの外国人観光客であふれかえっています。また、一瞬外国にいるような錯覚を起こさせるほど英語の看板も目立つようになりました。しかし、いざ外国人観光客が東京を楽しもうとすると、まだまだ英語の説明が足りなく不自由な思いをする事が多いようです。また間違った英語の使われ方をしているものも散見されます。
         </p>

@@ -20,8 +20,7 @@ export default class ContactE extends React.Component {
         <h2>Requests / Inquiries</h2>
         <hr/>
         <p>
-          If you would like to request a service or have any questions, send
-          us an email below.
+          If you have any questions or would like to request a service, please contact us below.
         </p>
         <input
           className="subject"
@@ -44,7 +43,7 @@ export default class ContactE extends React.Component {
           <a
             href={`mailto:mulberrytrns@gmail.com?subject=${this.state.subject}&body=${this.state.contents}`}
           >
-            Send E-mail
+            Send
           </a>
         </button>
       </div>

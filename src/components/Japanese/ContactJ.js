@@ -17,25 +17,35 @@ export default class ContactJ extends React.Component {
   render() {
     return (
       <div className="contactForm">
+        <h2>ご依頼/お問い合せ</h2>
+        <hr />
+        <p>
+          ご質問がある場合、またはサービスをご希望の場合は、下記までご連絡ください。
+        </p>
         <input
+          className="subject"
           type="email"
           value={this.state.subject}
           onChange={this.handleSubject}
           maxLength="50"
           placeholder="Subject..."
         />
+
         <textarea
+          className="contents"
           value={this.state.contents}
           onChange={this.handleContents}
-          rows="10"
+          rows="7"
           maxLength="1000"
-          placeholder="Contents..."
+          placeholder="Your message..."
         />
-        <a
-          href={`mailto:mulberrytrns@gmail.com?subject=${this.state.subject}&body=${this.state.contents}`}
-        >
-          E-mail
-        </a>
+        <button type="button" class="btn btn-primary">
+          <a
+            href={`mailto:mulberrytrns@gmail.com?subject=${this.state.subject}&body=${this.state.contents}`}
+          >
+            Send
+          </a>
+        </button>
       </div>
     );
   }

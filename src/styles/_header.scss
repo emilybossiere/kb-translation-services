@@ -1,3 +1,12 @@
+.header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header img {
+  width: 30rem;
+}
+
 .language {
   position: relative;
   left: 0;
@@ -6,15 +15,4 @@
   float: right;
   margin: 5px;
   color: black;
-}
-
-.header {
-  text-align: center;
-  width: 509px;
-  height: 216px;
-  margin: 0 auto;
-}
-
-.intro h2 {
-  text-align: center;
 }
