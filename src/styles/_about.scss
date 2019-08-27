@@ -1,16 +1,16 @@
+.about {
+  overflow: hidden;
+}
+
 .about img {
   float: left;
   margin: 0 10px;
   border-radius: 3px;
+  overflow: hidden;
 }
 
 .about h4 {
-  margin: 0;
-}
-
-.japanese p {
-  font-size: 17px;
-  margin: 3px;
+  margin: 5px 0;
 }
 
 .row p {
