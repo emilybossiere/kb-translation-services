@@ -9,7 +9,7 @@ export default class AboutJ extends React.Component {
         <hr />
         <div className="about">
           <img src={kayImg} alt="Kayoko Bossiere" />
-          <div className="row japanese">
+          <div className="row">
             <div className="col-12">
               <h4>ボシエール 香代子</h4>
               <p>
@@ -22,7 +22,7 @@ export default class AboutJ extends React.Component {
               </p>
             </div>
           </div>
-          <div className="row japanese">
+          <div className="row">
             <div className="col-12">
               <h4>ボシエール ジェフリー</h4>
               <p>
